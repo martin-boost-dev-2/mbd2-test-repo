@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mbd2-test-repo"
+version = "0.1.0"
+description = ""
+authors = ["Martin Roy <martin@boostsecurity.io>"]
+readme = "README.md"
+packages = [{include = "mbd2_test_repo"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pillow = "8.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
