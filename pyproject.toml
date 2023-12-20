@@ -8,7 +8,6 @@ packages = [{include = "mbd2_test_repo"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Pillow = "8.4.0"
 
 [build-system]
 requires = ["poetry-core"]
