@@ -8,6 +8,8 @@ packages = [{include = "mbd2_test_repo"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+boto3 = "^1.34.153"
+fastapi = "^0.112.0"
 
 [build-system]
 requires = ["poetry-core"]
